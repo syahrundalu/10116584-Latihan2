@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginHorizontal="@dimen/jarak_20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/almost_there_tittle"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:layout_marginBottom="@dimen/jarak_24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/almost_there_desc"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_marginBottom="48dp"
+            />
+
+        <TextView
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="VERIFY"
+            android:textColor="@color/white"
+            android:paddingVertical="@dimen/jarak_14dp"
+            android:textSize="@dimen/jarak_14dp"
+            android:background="@drawable/whiteborder"/>
+
+    </LinearLayout>
+
+</LinearLayout>
